@@ -12,6 +12,7 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
+        android:id="@+id/text_i am poor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,7 +23,7 @@
         android:textSize="40sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_Coal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -31,10 +32,10 @@
         app:srcCompat="@drawable/coal" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_smileyFace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView"
+        android:layout_above="@+id/imageView_Coal"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-118dp"
         android:text="@string/smileFace"
